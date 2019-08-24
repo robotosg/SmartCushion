@@ -120,8 +120,6 @@ app.post("/upload-audio", upload.single('audioStream'), (req,res) => {
 
 
 
-
-
 const port = process.env.port || 3000;
 app.listen(port, () => { "Server is up on port " + port });
 
